@@ -3,8 +3,8 @@
 Haykal is a local Adobe Illustrator CEP extension that turns selected vector
 artwork into organized logo-construction graphics.
 
-**Free beta version:** 0.3.7  
-**Release date:** 2026-08-18
+**Free beta version:** 0.3.8
+**Release date:** 2026-08-19
 
 ## Main functions
 
@@ -20,6 +20,13 @@ artwork into organized logo-construction graphics.
   measurement labels.
 - Use compact Adobe-style up/down controls for every numeric field.
 - Use Adobe's compact 12px desktop scale for labels, values, tabs, and buttons.
+- Generate clean linear dimensions and arc-based angular annotations, with a
+  choice of interior or reflex angle results.
+- Compare repeated straight lengths and similar Bézier curves using a chosen
+  tolerance and compact matching-geometry labels.
+- Choose an explicit reference object for proportional measurements without
+  including it in the measured logo bounds.
+- Display proportional or real values in px, pt, mm, or inches.
 
 ## Compatibility
 
