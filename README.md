@@ -3,7 +3,7 @@
 Haykal is a local Adobe Illustrator CEP extension that turns selected vector
 artwork into organized logo-construction graphics.
 
-**Free beta version:** 0.3.0  
+**Free beta version:** 0.3.1  
 **Release date:** 2026-08-18
 
 ## Main functions
@@ -30,38 +30,31 @@ Windows**. No specific operating-system release matrix has been verified.
 
 1. Close Adobe Illustrator.
 2. Extract `haykal-beta.zip`.
-3. Copy the complete `com.haykal.tariqdesign` folder to:
-   `~/Library/Application Support/Adobe/CEP/extensions/`
-4. Because this beta is unsigned, open Terminal and enable unsigned CEP panels:
+3. Keep `install mac.sh` beside the `com.haykal.tariqdesign` folder.
+4. Open Terminal in the extracted directory and run:
 
    ```sh
-   for V in 11 12 13 14 15; do defaults write "com.adobe.CSXS.$V" PlayerDebugMode 1; done
+   chmod +x "install mac.sh"
+   ./"install mac.sh"
    ```
 
 5. Restart Illustrator completely.
 6. Open **Window → Extensions → Haykal**.
 
-An administrator may alternatively install the same extension folder in
-`/Library/Application Support/Adobe/CEP/extensions/`.
+The installer uses the macOS user CEP location:
+`~/Library/Application Support/Adobe/CEP/extensions/`.
 
 ## Install on Windows
 
 1. Close Adobe Illustrator.
 2. Extract `haykal-beta.zip`.
-3. Copy the complete `com.haykal.tariqdesign` folder to:
-   `%APPDATA%\Adobe\CEP\extensions\`
-4. Because this beta is unsigned, open Command Prompt and enable unsigned CEP
-   panels:
-
-   ```bat
-   for %V in (11 12 13 14 15) do reg add "HKCU\Software\Adobe\CSXS.%V" /v PlayerDebugMode /t REG_SZ /d 1 /f
-   ```
-
+3. Keep `install windows.bat` beside the `com.haykal.tariqdesign` folder.
+4. Double-click `install windows.bat`.
 5. Restart Illustrator completely.
 6. Open **Window → Extensions → Haykal**.
 
-An administrator may alternatively install the same extension folder in
-`C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\`.
+The installer uses the Windows user CEP location:
+`%APPDATA%\Adobe\CEP\extensions\`.
 
 ## Manual uninstall
 
