@@ -3,7 +3,7 @@
 Haykal is a local Adobe Illustrator CEP extension that turns selected vector
 artwork into organized logo-construction graphics.
 
-**Free beta version:** 0.3.1  
+**Free beta version:** 0.3.2  
 **Release date:** 2026-08-18
 
 ## Main functions
