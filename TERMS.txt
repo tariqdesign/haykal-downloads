@@ -1,0 +1,18 @@
+HAYKAL FREE BETA TERMS OF USE
+
+Copyright © 2026 Tariq Yosef. All rights reserved.
+
+You may download and install Haykal and use it for personal work and commercial
+design work.
+
+You may not sell Haykal; redistribute or repackage it; publish modified copies;
+claim ownership or authorship; or remove ownership notices.
+
+Haykal is proprietary software and is not open source. It is provided as a free
+beta without a promise of continuous technical support. You are responsible for
+reviewing generated artwork before using it in final work.
+
+The bundled CSInterface.js library is copyright Adobe and remains subject to
+Adobe's applicable license and ownership notice contained in that file.
+
+Website: https://tariqdesign.com
